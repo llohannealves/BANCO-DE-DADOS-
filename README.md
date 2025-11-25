@@ -1,51 +1,41 @@
-# 🗂 Projeto de Banco de Dados – Modelo Conceitual (DER)
+# 🗄️ Banco de Dados
 
-## 📘 Descrição do Projeto
-Este repositório contém o **Modelo Conceitual de Banco de Dados**, desenvolvido utilizando a ferramenta **BrModelo**, seguindo as boas práticas de modelagem e normalização vistas em aula.
-
-O objetivo do projeto é representar, de forma clara e organizada, as **entidades**, **atributos** e **relacionamentos** que compõem o sistema analisado, garantindo uma base sólida para a futura criação do Modelo Lógico e Físico.
+Este repositório reúne meus estudos, exercícios e projetos desenvolvidos na disciplina de **Banco de Dados**. Aqui registro minha evolução no entendimento de conceitos essenciais, modelagem, consultas e boas práticas de armazenamento de informações.
 
 ---
 
-## 🧩 Componentes do Projeto
+## 🎯 Objetivo da Disciplina
+A matéria tem como foco apresentar os fundamentos dos bancos de dados, desde a modelagem conceitual até a manipulação e consulta de dados utilizando SQL. O objetivo é capacitar o estudante a projetar estruturas coerentes, normalizadas e eficientes.
 
-### ✔ **DER – Diagrama Entidade-Relacionamento**  
-Representação gráfica do modelo conceitual, incluindo:
-- Entidades  
-- Atributos (simples e compostos, quando aplicável)  
-- Relacionamentos  
-- Cardinalidades  
+---
+
+## 📚 Conteúdos Abordados
+- Conceitos básicos de banco de dados  
+- Modelo Entidade-Relacionamento (DER)  
+- Normalização  
+- Modelagem lógica e física  
+- Comandos SQL (DDL, DML e DQL)  
+- Restrições de integridade  
 - Chaves primárias e estrangeiras  
-
-
----
-
-## 🛠 Ferramentas Utilizadas
-- **BrModelo** para criação do DER  
-- **GitHub** para versionamento e armazenamento do projeto  
+- Consultas, filtros e ordenações  
+- Joins e relacionamentos  
+- Introdução a transações e segurança de dados
 
 ---
 
-## 🧠 Processos Aplicados
-
-### 🔹 1. Identificação das Entidades  
-Foram identificadas todas as entidades relevantes para o domínio do problema.
-
-### 🔹 2. Definição dos Atributos  
-Cada entidade recebeu seus atributos essenciais, incluindo:
-- Chave primária (PK)  
-- Atributos simples e multivalorados (quando houver)  
-
-### 🔹 3. Definição dos Relacionamentos  
-Relacionamentos foram definidos com:
-- Nome descritivo  
-- Cardinalidades (1:1, 1:N, N:N)  
-- Chaves estrangeiras quando aplicáveis  
-
-### 🔹 4. Normalização  
-O modelo foi analisado segundo as três formas normais:  
-- **1FN:** eliminação de atributos multivalorados  
-- **2FN:** dependências parciais removidas  
-- **3FN:** eliminação de dependências transitivas  
+## 📝 Estrutura do Repositório
+- `/der` – modelos conceituais criados ao longo da disciplina  
+- `/scripts-sql` – comandos e consultas SQL desenvolvidos em aula  
+- `/projetos` – atividades completas envolvendo modelagem e implementação  
+- `/anotacoes` – resumos e materiais de apoio
 
 ---
+
+## 🚀 Objetivo Pessoal
+A disciplina é essencial para minha formação como desenvolvedora, pois banco de dados está presente em praticamente todo sistema moderno. Meu foco é aprender a projetar estruturas organizadas, evitar redundâncias e criar consultas eficientes.
+
+---
+
+## 📬 Contato
+**Email:** seuemail@example.com  
+**GitHub:** https://github.com/seuusuario
